@@ -8,13 +8,15 @@ WHERE CITY="London";
 ```
 
 ## find all customers with postal code 1010. Returns 3 customers.
-```SELECT *
+```
+SELECT *
 FROM Customers
 WHERE PostalCode="1010";
 ```
 
 ## find the phone number for the supplier with the id 11. Should be (010) 9984510.
-```SELECT Phone
+```
+SELECT Phone
 FROM Suppliers
 WHERE SupplierID=11;
 ```
