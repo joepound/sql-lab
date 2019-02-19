@@ -103,8 +103,8 @@ GROUP BY city
 ```
 DELETE FROM Customers
 WHERE NOT EXISTS (
-    SELECT *
-    FROM Orders
-    WHERE Customers.CustomerID=Orders.CustomerID
+  SELECT *
+  FROM Orders
+  WHERE Customers.CustomerID=Orders.CustomerID
 )
 ```
